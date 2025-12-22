@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <title>KSSM Matematik Tingkatan 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 id="main-title">KSSM MATEMATIK TINGKATAN 2</h1>
+
+    <div id="menu-section">
+        <ul class="bab-grid">
+            <li onclick="pilihBab(1)">BAB 1 : POLA DAN JUJUKAN</li>
+            <li onclick="pilihBab(2)">BAB 2 : PEMFAKTORAN DAN PECAHAN ALGEBRA</li>
+            <li onclick="pilihBab(3)">BAB 3 : RUMUS ALGEBRA</li>
+            <li onclick="pilihBab(4)">BAB 4 : POLIGON</li>
+            <li onclick="pilihBab(5)">BAB 5 : BULATAN</li>
+            <li onclick="pilihBab(6)">BAB 6 : BENTUK GEOMETRI TIGA DIMENSI</li>
+            <li onclick="pilihBab(7)">BAB 7 : KOORDINAT</li>
+            <li onclick="pilihBab(8)">BAB 8 : GRAF FUNGSI</li>
+            <li onclick="pilihBab(9)">BAB 9 : LAJU DAN PECUTAN</li>
+            <li onclick="pilihBab(10)">BAB 10 : KECERUNAN GARIS LURUS</li>
+            <li onclick="pilihBab(11)">BAB 11 : TRANSFORMASI ISOMETRI</li>
+            <li onclick="pilihBab(12)">BAB 12 : SUKATAN KECENDERUNGAN MEMUSAT</li>
+            <li onclick="pilihBab(13)">BAB 13 : KEBARANGKALIAN MUDAH</li>
+        </ul>
+    </div>
+
+    <div id="content-section" style="display: none;">
+        <div class="nav-bar">
+            <button class="btn-back" onclick="kembaliKeMenu()">← Kembali</button>
+            <div class="slider-tools">
+                <button onclick="gambarSebelumnya()">Sebelum</button>
+                <span id="page-info">1 / 1</span>
+                <button onclick="gambarSeterusnya()">Seterusnya</button>
+            </div>
+        </div>
+        <div class="image-viewer">
+            <img id="notaImage" src="" alt="Nota">
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

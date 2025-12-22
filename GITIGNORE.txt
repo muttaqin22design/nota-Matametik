@@ -1,0 +1,9 @@
+# Mengabaikan folder tetapan VS Code
+.vscode/
+
+# Mengabaikan fail sistem yang tidak perlu
+Thumbs.db
+.DS_Store
+
+# Mengabaikan fail log
+*.log
