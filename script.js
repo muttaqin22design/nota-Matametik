@@ -1,18 +1,19 @@
 // Daftarkan fail gambar mengikut bab
 const koleksiGambar = {
-    1: ["images/bab1_1.png", "images/bab1_2.png", "images/bab1_3.png", "images/bab1_4.png", "images/bab1_5.png", "images/bab1_6.png", "images/bab1_7.png", "images/bab1_8.png", "images/bab1_9.png", "images/bab1_10.png", "images/bab1_11.png", "images/bab1_12.png",],
-    2: ["images/bab.png"],
-    3: ["images/bab.png"],
-    4: ["images/bab.png"],
-    5: ["images/bab.png"],
-    6: ["images/bab.png"],
-    7: ["images/bab.png"],
-    8: ["images/bab.png"],
-    9: ["images/bab.png"],
-    10: ["images/bab.png"],
-    11: ["images/bab.png"],
-    12: ["images/bab.png"],
-    13: ["images/bab.png"],
+    1: ["images/bab1_1.PNG", "images/bab1_2.PNG", "images/bab1_3.PNG", "images/bab1_4.PNG", "images/bab1_5.PNG", "images/bab1_6.PNG", "images/bab1_7.PNG", "images/bab1_8.PNG", "images/bab1_9.PNG", "images/bab1_10.PNG", "images/bab1_11.PNG", "images/bab1_12.PNG",],
+    2: ["images/bab.PNG"],
+    2: ["images/bab.PNG"],
+    3: ["images/bab.PNG"],
+    4: ["images/bab.PNG"],
+    5: ["images/bab.PNG"],
+    6: ["images/bab.PNG"],
+    7: ["images/bab.PNG"],
+    8: ["images/bab.PNG"],
+    9: ["images/bab.PNG"],
+    10: ["images/bab.PNG"],
+    11: ["images/bab.PNG"],
+    12: ["images/bab.PNG"],
+    13: ["images/bab.PNG"],
     // Tambah senarai gambar bab lain di sini
 };
 
@@ -62,4 +63,5 @@ function kembaliKeMenu() {
     document.getElementById("main-title").style.display = "block";
     document.getElementById("menu-section").style.display = "block";
     document.getElementById("content-section").style.display = "none";
+
 }
